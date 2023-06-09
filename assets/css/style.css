@@ -41,18 +41,44 @@ img {
 
 .user_avatar_container {
   border-radius: 50%;
-  height: 3rem;
-  width: 3rem;
+  height: 2.75rem;
+  width: 2.75rem;
   overflow: hidden;
   border: 1px solid #e8ebe4;
 }
 
-.user_name, .contact_name, h1 {
+.user_name, .contact_name, .button_CTA {
   font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.5%;
 }
 
 .user_status, .contact_last_message, .main_bodycopy {
   font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  font-weight: 500;
+  letter-spacing: 0.5%;
+}
+
+.word_emphasis {
+  font-weight: 700;
+}
+
+.user_status {
+  font-size: 0.75rem;
+}
+
+.contact_last_message {
+  font-size: 0.875rem;
+}
+
+.main_bodycopy {
+  font-size: 1rem;
+  line-height: 160%;
 }
 
 .menu {
@@ -83,14 +109,14 @@ li {
   border: none;
   background-color: #a491d2;
   color: white;
-  width: 100vw;
+  width: 100%;
   padding: 1rem 2rem;
 }
 
 .contact_avatar_container {
   border-radius: 50%;
-  height: 4rem;
-  width: 4rem;
+  height: 3.5rem;
+  width: 3.5rem;
   overflow: hidden;
   border: 1px solid #e8ebe4;
 }
@@ -114,7 +140,7 @@ li {
   display: flex;
   align-items: center;
   gap: 1rem;
-  padding: 1rem 2rem;
+  padding: 1.25rem 2rem;
   border-top: 1px solid #bec1bb;
 }
 
@@ -148,5 +174,5 @@ li {
 }
 
 .main_bodycopy {
-  max-width: 50ch;
+  max-width: 54ch;
 }
