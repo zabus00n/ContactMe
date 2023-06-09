@@ -6,6 +6,7 @@
 body {
   display: flex;
   flex-direction: row;
+
 }
 
 img {
@@ -22,7 +23,7 @@ img {
   flex: 0 0 20%;
   height: 100vh;
   min-width: 24rem;
-  border-right: 1px solid #e8ebe4;
+  border-right: 1px solid #bec1bb;
 }
 
 .side_menu_header {
@@ -46,17 +47,12 @@ img {
   border: 1px solid #e8ebe4;
 }
 
-.user_label {
+.user_name, .contact_name, h1 {
   font-family: "Roboto", sans-serif;
 }
 
-.user_name {
-  font-size: 1rem;
-}
-
-.user_status {
+.user_status, .contact_last_message, .main_bodycopy {
   font-family: "Open Sans", sans-serif;
-  font-size: 0.75rem;
 }
 
 .menu {
@@ -102,7 +98,6 @@ li {
 .contacts {
   flex: 1;
   position: relative;
-  border-top: 1px solid #bec1bb;
 }
 
 .contact_list {
@@ -112,6 +107,7 @@ li {
   height: 100%;
   width: 100%;
   overflow-y: scroll;
+  border-top: 1px solid #bec1bb;
 }
 
 .contact_item {
@@ -119,4 +115,38 @@ li {
   align-items: center;
   gap: 1rem;
   padding: 1rem 2rem;
+  border-top: 1px solid #bec1bb;
+}
+
+.contact_item:first-of-type {
+  border-top: none;
+}
+
+.contact_item:last-of-type {
+  border-bottom: 1px solid #bec1bb;
+}
+
+.main_container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.main_image_container {
+  margin-bottom: 2rem;
+  width: 22%;
+  max-width: fit-content;
+  border-radius: 4rem;
+}
+
+.main_title {
+  margin-bottom: 0.5rem;
+}
+
+.main_bodycopy {
+  max-width: 50ch;
 }
