@@ -63,10 +63,9 @@ img {
   display: flex;
   align-items: center;
   gap: 1.5rem;
-
 }
 
-.icon_button {  
+.icon_button {
   background-color: transparent;
   border: none;
   font-size: 1.4rem;
@@ -89,5 +88,35 @@ li {
   background-color: #a491d2;
   color: white;
   width: 100vw;
+  padding: 1rem 2rem;
+}
+
+.contact_avatar_container {
+  border-radius: 50%;
+  height: 4rem;
+  width: 4rem;
+  overflow: hidden;
+  border: 1px solid #e8ebe4;
+}
+
+.contacts {
+  flex: 1;
+  position: relative;
+  border-top: 1px solid #bec1bb;
+}
+
+.contact_list {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.contact_item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
   padding: 1rem 2rem;
 }
