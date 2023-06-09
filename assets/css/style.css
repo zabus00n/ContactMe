@@ -6,7 +6,6 @@
 body {
   display: flex;
   flex-direction: row;
-
 }
 
 img {
@@ -47,13 +46,17 @@ img {
   border: 1px solid #e8ebe4;
 }
 
-.user_name, .contact_name, .button_CTA {
+.user_name,
+.contact_name,
+.button_CTA {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   letter-spacing: 0.5%;
 }
 
-.user_status, .contact_last_message, .main_bodycopy {
+.user_status,
+.contact_last_message,
+.main_bodycopy {
   font-family: "Open Sans", sans-serif;
 }
 
